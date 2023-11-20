@@ -31,3 +31,5 @@
 // Console.WriteLine($"{A} {B}");
 // //Convert и Parse пытается напрямую конвертировать
 // //Tryparse(что конвертируем, куда) 
+
+//Console.WriteLine($"{string.Join(", ", array)}");
