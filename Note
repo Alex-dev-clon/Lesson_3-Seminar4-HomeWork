@@ -21,3 +21,13 @@
 //     }
 //     return result;
 // }
+
+// //Возвести А в степень В
+// double A, B;
+// while(true){
+//     Console.WriteLine("Enter nimber A and B: ");
+//     if (Double.TryParse(Console.ReadLine(), out A) && Double.TryParse(Console.ReadLine(), out B)) break;
+// }
+// Console.WriteLine($"{A} {B}");
+// //Convert и Parse пытается напрямую конвертировать
+// //Tryparse(что конвертируем, куда) 
