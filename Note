@@ -1,14 +1,27 @@
+// Прочитать int с консоли
 // int ReadNumber(string message){
 //     Console.WriteLine(message);
 //     return Convert.ToInt32(Console.ReadLine());
 // }
 
-
+// Создать одномерый массив
 // int [] CreateArray (int size){
 //     int [] array = new int [size];
 //     for (int i = 0; i < size; i++){
 //     array[i] = new Random().Next(0, 10);
 //     Console.Write(array[i] + " ");
+//     }
+//     return array;
+// }
+
+// Создать двумерный массив
+// int [,] CreateArray (int firstNum, int rightNum){
+//     int [,] array = new int [firstNum, rightNum];
+//     Random rand = new Random();
+//     for (int i = 0; i < array.GetLength(0); i++){
+//         for (int j = 0; j < array.GetLength(1); j++){
+//             array[i, j] = rand.Next(0, 10);
+//         }
 //     }
 //     return array;
 // }
@@ -28,8 +41,20 @@
 //     Console.WriteLine("Enter nimber A and B: ");
 //     if (Double.TryParse(Console.ReadLine(), out A) && Double.TryParse(Console.ReadLine(), out B)) break;
 // }
+
 // Console.WriteLine($"{A} {B}");
 // //Convert и Parse пытается напрямую конвертировать
 // //Tryparse(что конвертируем, куда) 
 
+//Вывести массив одной строкой
 //Console.WriteLine($"{string.Join(", ", array)}");
+
+//Вывести двумерный массив
+//void PrintArray (int [,] array){
+//     for (int i = 0; i < array.GetLength(0); i++){
+//         for (int j = 0; j < array.GetLength(1); j++){
+//             Console.Write(array[i,j] + " ");
+//         }
+//         Console.WriteLine();
+//     }
+// }
